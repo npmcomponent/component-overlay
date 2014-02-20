@@ -3,9 +3,9 @@
  * Module dependencies.
  */
 
-var Emitter = require('emitter');
+var Emitter = require('component-emitter');
 var tmpl = require('./template');
-var o = require('dom');
+var o = require('component-dom');
 
 /**
  * Expose `overlay()`.

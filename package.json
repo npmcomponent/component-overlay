@@ -1,26 +1,17 @@
 {
-  "name": "overlay-component",
+  "name": "component-overlay",
   "description": "Overlay component",
   "version": "0.1.1",
   "keywords": [
     "overlay",
     "ui"
   ],
+  "styles": [
+    "overlay.css"
+  ],
   "dependencies": {
-    "emitter-component": "*",
-    "jquery-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "component-dom": "git://github.com/npmcomponent/component-dom.git"
   },
-  "component": {
-    "scripts": {
-      "overlay/index.js": "index.js",
-      "overlay/template.js": "template.js"
-    },
-    "styles": [
-      "overlay.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/overlay.git"
-  }
+  "license": "MIT"
 }
